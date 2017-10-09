@@ -33,7 +33,7 @@ class FieldtypeTemplates extends FieldtypeMulti {
         return array(
             'title' => 'Select Template',
             'version' => 101,
-            'summary' => 'Field that stores the ID of one or more templates',
+            'summary' => 'Field that stores the ID of one or more templates. Get instance of template as formatted value.',
             'author' => 'hani, kixe',
         );
     }
